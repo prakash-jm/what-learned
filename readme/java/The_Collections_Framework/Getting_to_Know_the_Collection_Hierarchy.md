@@ -1,4 +1,5 @@
 [The Collection FrameWork](./README.md) | [<<](./Storing_Data_Using_the_Collections_Framework.md)  |  Getting to Know the Collection Hierarchy | [>>](./Storing_Elements_in_a_Collection.md)
+-----------------
 
 ##### Avoiding Getting Lost in the Collection Hierarchy
 * The Collections Framework is divided in several hierarchies of interfaces and classes. The first one you need to understand is the following: the Collection interface hierarchy.

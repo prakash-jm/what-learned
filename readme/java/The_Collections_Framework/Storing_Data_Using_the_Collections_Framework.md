@@ -1,6 +1,6 @@
 [The Collection FrameWork](./README.md) | Storing Data Using the Collections Framework | [>>](./Getting_to_Know_the_Collection_Hierarchy.md) 
+-----------------
 
-#### 
 ##### Introducing the Collections Framework
 * The Collections Framework is an implementation of the concepts on how to store, organize, and access data in memory that were developed long before the invention of Java. 
 * The Collections Framework was first introduced in Java SE 2, in 1998 and was rewritten twice since then:
