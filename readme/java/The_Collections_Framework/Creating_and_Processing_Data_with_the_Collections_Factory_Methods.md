@@ -1,4 +1,4 @@
-#### Creating and Processing Data with the Collections Factory Methods
+[The Collection FrameWork](./README.md) |[Extending Collection with Set, SortedSet and NavigableSet](./Extending_Collection_with_Set_SortedSet_and_NavigableSet.md) |  Creating and Processing Data with the Collections Factory Methods |[Storing Elements in Stacks and Queues](./Storing_Elements_in_Stacks_and_Queues.md)
 ##### Creating Immutable Collections
 * Java SE 9 saw the addition of a set of factory methods to the List and Set interfaces to create lists and sets. The pattern is very simple: just call the List.of() or Set.of() static method, pass the elements of your list and set, and that's it.
 ```
@@ -91,3 +91,6 @@ If * you plan to create an immutable collection using this pattern, defensively 
 2. Traversing your collection with an iterator or a stream should be synchronized by the calling code on the list itself.
 * Not following these rules will expose your code to race conditions. 
 * Synchronizing collections using the Collections factory methods may not be your best choice. The Java Util Concurrent framework has better solutions to offer.
+
+
+[The Collection FrameWork](./README.md) |[Extending Collection with Set, SortedSet and NavigableSet](./Extending_Collection_with_Set_SortedSet_and_NavigableSet.md) |  Creating and Processing Data with the Collections Factory Methods |[Storing Elements in Stacks and Queues](./Storing_Elements_in_Stacks_and_Queues.md)

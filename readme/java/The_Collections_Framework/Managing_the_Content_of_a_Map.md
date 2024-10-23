@@ -1,4 +1,4 @@
-##### Managing the Content of a Map
+[The Collection FrameWork](./README.md) | [Using Maps to Store Key Value Pairs](./Using_Maps_to_Store_Key_Value_Pairs.md)|  Managing the Content of a Map | [Handling Map Values with Lambda Expressions](./Handling_Map_Values_with_Lambda_Expressions.md)
 ###### Adding a Key Value Pair to a Map
 * You can simply add a key/value pair in a map with put(key, value). If the key is not already present in the map, then the key/value pair is simply added to the map. If it is, then the existing value is replaced with the new one. 
 * In both cases, the put() method returns the existing value currently bound to the key. This means that if this a new key, a call to put() will return null. 
@@ -149,3 +149,5 @@ for (Map.Entry<Integer, String> entry : map.entrySet()) {
 System.out.println("entry = " + entry);
 }
 ```
+
+[The Collection FrameWork](./README.md) | [Using Maps to Store Key Value Pairs](./Using_Maps_to_Store_Key_Value_Pairs.md)|  Managing the Content of a Map | [Handling Map Values with Lambda Expressions](./Handling_Map_Values_with_Lambda_Expressions.md)

@@ -1,4 +1,4 @@
-#### Extending Collection with Set, SortedSet and NavigableSet
+[The Collection FrameWork](./README.md) |  [Extending Collection with List](./Extending_Collection_with_List.md)| Extending Collection with Set, SortedSet and NavigableSet | [Creating and Processing Data with the Collections Factory Methods](./Creating_and_Processing_Data_with_the_Collections_Factory_Methods.md)
 ##### Exploring the Set Interface
 * The Set interface does not bring any new method to the Collection interface. The Collections Framework gives you one plain implementation of the Set interface: HashSet. Internally, a HashSet wraps an instance of HashMap, a class that will be covered later, that acts as a delegate for HashSet. 
 * As you already saw, what a Set brings to a Collection is that it forbids duplicates. What you lose over the List interface is that your elements are stored in no particular order. There is very little chance that you will iterate over them in the same order as you added them to your set. 
@@ -62,3 +62,5 @@ System.out.println("reversed strings = " + reversedStrings);
 sorted strings = [a, b, c, d, e, f]
 reversed strings = [f, e, d, c, b, a]
 ```
+
+[The Collection FrameWork](./README.md) |  [Extending Collection with List](./Extending_Collection_with_List.md)| Extending Collection with Set, SortedSet and NavigableSet | [Creating and Processing Data with the Collections Factory Methods](./Creating_and_Processing_Data_with_the_Collections_Factory_Methods.md)

@@ -1,4 +1,4 @@
-#### Storing Elements in a Collection
+[The Collection FrameWork](./README.md) | [Getting to Know the Collection Hierarchy](./Getting_to_Know_the_Collection_Hierarchy.md)|  Storing Elements in a Collection |[Iterating over the Elements of a Collection](./Iterating_over_the_Elements_of_a_Collection.md)
 ##### Exploring the Collection Interface
 * The first interface you need to know is the Collection interface. It models a plain collection, which can store elements and gives you different ways to retrieve them. 
 * If you want to run the examples in this part, you need to know how to create a collection. We have not covered the ArrayList class yet, we will do that later.
@@ -268,3 +268,5 @@ filtered strings = [one, two, three]
 * In all these examples, we used ArrayList to implement the Collection interface. 
 * The fact is: the Collections Framework does not provide a direct implementation of the Collection interface. ArrayList implements List, and because List extends Collection, it also implements Collection. 
 * If you decide to use the Collection interface to model the collections in your application, then choosing ArrayList as you default implementation is your best choice, most of the time. You will see more discussions on the right implementation to choose in later in this tutorial.
+
+[The Collection FrameWork](./README.md) | [Getting to Know the Collection Hierarchy](./Getting_to_Know_the_Collection_Hierarchy.md)|  Storing Elements in a Collection |[Iterating over the Elements of a Collection](./Iterating_over_the_Elements_of_a_Collection.md)

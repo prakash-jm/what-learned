@@ -1,4 +1,4 @@
-#### Keeping Keys Sorted with SortedMap and NavigableMap
+[The Collection FrameWork](./README.md) | [Handling Map Values with Lambda Expressions](./Handling_Map_Values_with_Lambda_Expressions.md) |  Keeping Keys Sorted with SortedMap and NavigableMap |  [Choosing Immutable Types for Your Key](./Choosing_Immutable_Types_for_Your_Key.md) 
 ##### Methods Added by SortedMap
 * The JDK provides two extensions of the Map interface: SortedMap and NavigableMap. NavigableMap is an extension of SortedMap. Both interfaces are implemented by the same class: TreeMap. The TreeMap class is a red-black tree, a well-known data structure. 
 * SortedMap and NavigableMap keep their key/value pairs sorted by key. Just as for SortedSet and NavigableSet, you need to provide a way to compare these keys. You have two solutions to do this: either the class of your keys implements Comparable, or you provide a Comparator for your keys when creating your TreeMap. If you provide a Comparator, it will be used even if your keys are comparable. 
@@ -63,3 +63,5 @@ descendingKeys.forEach(key -> System.out.print(key + " "));
 2. headMap(toKey, inclusive): same for the head map 
 3. tailMap(fromKey, inclusive): same for the tail map.
 * These maps are views on this map, which you can update by removing or adding key/value pairs. There is one restriction on adding elements though: you cannot add keys outside the boundaries on which the view has been created.
+
+[The Collection FrameWork](./README.md) | [Handling Map Values with Lambda Expressions](./Handling_Map_Values_with_Lambda_Expressions.md) |  Keeping Keys Sorted with SortedMap and NavigableMap |  [Choosing Immutable Types for Your Key](./Choosing_Immutable_Types_for_Your_Key.md) 

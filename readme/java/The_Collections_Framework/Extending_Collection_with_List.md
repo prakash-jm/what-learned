@@ -1,4 +1,4 @@
-#### Extending Collection with List
+[The Collection FrameWork](./README.md) |   [Iterating over the Elements of a Collection](./Iterating_over_the_Elements_of_a_Collection.md) |  Extending Collection with List | [Extending Collection with Set, SortedSet and NavigableSet](./Extending_Collection_with_Set_SortedSet_and_NavigableSet.md)
 ##### Exploring the List Interface
 * The List interface brings two new functionalities to plain collections.
 1. This order in which you iterate over the elements of a list is always the same, and it respects the order in which the elements have been added to this list. 
@@ -65,3 +65,5 @@ System.out.println("numbers = " + numbers);
 ```
 numbers = [one, 2, three]
 ```
+
+[The Collection FrameWork](./README.md) |   [Iterating over the Elements of a Collection](./Iterating_over_the_Elements_of_a_Collection.md) |  Extending Collection with List | [Extending Collection with Set, SortedSet and NavigableSet](./Extending_Collection_with_Set_SortedSet_and_NavigableSet.md)

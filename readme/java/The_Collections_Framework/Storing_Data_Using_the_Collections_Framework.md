@@ -1,6 +1,6 @@
+[The Collection FrameWork](./README.md) | Storing Data Using the Collections Framework | [Getting to Know the Collection Hierarchy](./Getting_to_Know_the_Collection_Hierarchy.md) 
 
-
-#### Storing Data Using the Collections Framework
+#### 
 ##### Introducing the Collections Framework
 * The Collections Framework is an implementation of the concepts on how to store, organize, and access data in memory that were developed long before the invention of Java. 
 * The Collections Framework was first introduced in Java SE 2, in 1998 and was rewritten twice since then:
@@ -46,3 +46,7 @@
 4. A collection can be queried for the presence of a given element 
 5. A collection provides operations like intersecting or merging with another collection.
 * This is just a small sample of what a collection can do for you. In fact, since a collection is an object and given that an object is extensible, you can add any operation you need on most of the collections provided by the JDK. It is not possible to do this with an array, because an array is not an object in Java.
+
+
+-----------------
+[The Collection FrameWork](./README.md) | Storing Data Using the Collections Framework | [Getting to Know the Collection Hierarchy](./Getting_to_Know_the_Collection_Hierarchy.md)

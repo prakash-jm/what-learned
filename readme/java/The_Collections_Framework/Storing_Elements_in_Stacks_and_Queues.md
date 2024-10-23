@@ -1,4 +1,4 @@
-#### Storing Elements in Stacks and Queues
+[The Collection FrameWork](./README.md) |  [Creating and Processing Data with the Collections Factory Methods](./Creating_and_Processing_Data_with_the_Collections_Factory_Methods.md) | Storing Elements in Stacks and Queues|[Using Maps to Store Key Value Pairs](./Using_Maps_to_Store_Key_Value_Pairs.md)
 ##### Finding Your Way in the Queue Hierarchy
 * Java SE 5 saw the addition of a new interface in the Collections Framework: the Queue interface, further extended in Java SE 6 by the Deque interface. The Queue interface is an extension of the Collection interface.
 * ![Queue Hierarchy](img/queue-hierarchy.png)
@@ -81,3 +81,5 @@
 * It may seem tempting to use the Stack class offered by the JDK. This class is simple to use and to understand. It has the three expected methods push(element), pop(), and peek(), and seeing this class referenced in your code makes it perfectly readable. 
 * It turns out that this class is an extension of the Vector class. Back in the days before the Collections Framework was introduced, Vector was your best choice to work with a list. Although Vector is not deprecated, its usage is discouraged. So is the usage of the Stack class. 
 * The Vector class is thread safe, and so is Stack. If you do not need the thread safety, then you can safely replace its usage with Deque and ArrayDeque. If what you need is a thread-safe stack, then you should explore the implementations of the BlockingQueue interface.
+
+[The Collection FrameWork](./README.md) |  [Creating and Processing Data with the Collections Factory Methods](./Creating_and_Processing_Data_with_the_Collections_Factory_Methods.md) | Storing Elements in Stacks and Queues|[Using Maps to Store Key Value Pairs](./Using_Maps_to_Store_Key_Value_Pairs.md)

@@ -1,4 +1,4 @@
-#### Handling Map Values with Lambda Expressions
+[The Collection FrameWork](./README.md) |   [Managing the Content of a Map](./Managing_the_Content_of_a_Map)|  Handling Map Values with Lambda Expressions|[Handling Map Values with Lambda Expressions](./Handling_Map_Values_with_Lambda_Expressions.md)
 ##### Consuming the Content of a Map
 * The Map interface has a forEach() method that works in the same way as the forEach() method on the Iterable interface. The difference is that this forEach() method takes a BiConsumer as an argument instead of a simple Consumer. 
 * Let us create a simple map and print out its content.
@@ -124,3 +124,5 @@ map.forEach((key, value) -> System.out.println(key + " :: " + value));
 5 :: three, seven
 ```
 * In both patterns, computeIfAbsent() and merge(), you may be wondering why the lambda created takes an argument that is always available in the context of this lambda, and that could be captured from that context. The answer is: you should favor non-capturing lambdas over capturing ones, for performance reasons.
+
+[The Collection FrameWork](./README.md) |   [Managing the Content of a Map](./Managing_the_Content_of_a_Map)|  Handling Map Values with Lambda Expressions|[Handling Map Values with Lambda Expressions](./Handling_Map_Values_with_Lambda_Expressions.md)

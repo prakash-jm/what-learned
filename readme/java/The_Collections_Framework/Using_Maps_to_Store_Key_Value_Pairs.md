@@ -1,4 +1,4 @@
-#### Using Maps to Store Key Value Pairs
+[The Collection FrameWork](./README.md) |  [Storing Elements in Stacks and Queues](./Storing_Elements_in_Stacks_and_Queues.md)| Using Maps to Store Key Value Pairs | [Managing the Content of a Map](./Managing_the_Content_of_a_Map)
 
 ##### Introducing the Map Hierarchy
 * The second main structure offered by the Collections Framework is an implementation of a very classic data structure: the hashmap structure. This concept is not new and is fundamental in structuring data, whether in-memory or not. How does it work and how has it been implemented in the Collections Framework? 
@@ -80,3 +80,5 @@ Map.entry(3, "three")
 1. getKey(): to read the key; 
 2. getValue() and setValue(value): to read and update the value bound to that key.
 * The Map.Entry objects you can get from a given map are views on the content of the map. Modifying the value of an entry object is thus reflected in the map and the other way round. This is the reason why you cannot change the key in this object: it could corrupt your map.
+
+[The Collection FrameWork](./README.md) |  [Storing Elements in Stacks and Queues](./Storing_Elements_in_Stacks_and_Queues.md)| Using Maps to Store Key Value Pairs | [Managing the Content of a Map](./Managing_the_Content_of_a_Map)

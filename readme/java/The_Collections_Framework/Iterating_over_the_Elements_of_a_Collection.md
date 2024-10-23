@@ -1,4 +1,4 @@
-#### Iterating over the Elements of a Collection
+[The Collection FrameWork](./README.md) | [Storing Elements in a Collection](./Storing_Elements_in_a_Collection.md)| Iterating over the Elements of a Collection|[Extending Collection with List](./Extending_Collection_with_List.md)
 ##### Using the for-each Pattern
 * Your simplest choice to iterate over the elements of a collection is to use the for-each pattern.
 ```
@@ -133,3 +133,5 @@ i = 2
 i = 3
 i = 4
 ```
+
+[The Collection FrameWork](./README.md) | [Storing Elements in a Collection](./Storing_Elements_in_a_Collection.md)| Iterating over the Elements of a Collection|[Extending Collection with List](./Extending_Collection_with_List.md)

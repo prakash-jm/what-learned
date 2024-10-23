@@ -1,4 +1,4 @@
-#### Choosing Immutable Types for Your Key
+[The Collection FrameWork](./README.md) |[Keeping Keys Sorted with SortedMap and NavigableMap](./Keeping_Keys_Sorted_with_SortedMap_and_NavigableMap.md) |  Choosing Immutable Types for Your Key | [The Collection FrameWork](./README.md)
 ##### Avoiding the Use of Mutable Keys
 * Using mutable key is an antipattern, and you should definitely avoid doing that. The side effects you may get if you do are terrible: you may end up making the content of your map unreachable.
 * It is quite easy to set up an example to show that. Here is a Key class, which is just a mutable wrapper on an String. Note that the equals() and hashCode() methods have been overridden by a code that your IDE could generate.
@@ -150,3 +150,5 @@ key2 = 3
 key0 == key2 ? true
 ```
 * In this example, you saw that mutating an object once it has been added to a set can lead to having the same object more than once in this set. Simply said, do not do that!
+
+[The Collection FrameWork](./README.md) |[Keeping Keys Sorted with SortedMap and NavigableMap](./Keeping_Keys_Sorted_with_SortedMap_and_NavigableMap.md) |  Choosing Immutable Types for Your Key | [The Collection FrameWork](./README.md)
