@@ -1,4 +1,4 @@
-[The Collection FrameWork](./README.md) | Storing Data Using the Collections Framework | [Storing Data Using the Collections Framework](./Storing_Data_Using_the_Collections_Framework.md) |  Getting to Know the Collection Hierarchy | [Storing Elements in a Collection](./Storing_Elements_in_a_Collection.md)
+[The Collection FrameWork](./README.md) | [Storing Data Using the Collections Framework](./Storing_Data_Using_the_Collections_Framework.md)  |  Getting to Know the Collection Hierarchy | [Storing Elements in a Collection](./Storing_Elements_in_a_Collection.md)
 
 ##### Avoiding Getting Lost in the Collection Hierarchy
 * The Collections Framework is divided in several hierarchies of interfaces and classes. The first one you need to understand is the following: the Collection interface hierarchy.
@@ -61,4 +61,5 @@ for (String element: collection) {
 * The **NavigableSet** does not change the behavior of a SortedSet. It adds several vey useful operations on SortedSet, among them the possibility to iterate over the elements in the descending order. You will see more details ont that later.
 
 
-[The Collection FrameWork](./README.md) | Storing Data Using the Collections Framework | [Storing Data Using the Collections Framework](./Storing_Data_Using_the_Collections_Framework.md) |  Getting to Know the Collection Hierarchy | [Storing Elements in a Collection](./Storing_Elements_in_a_Collection.md)
+[The Collection FrameWork](./README.md) | [Storing Data Using the Collections Framework](./Storing_Data_Using_the_Collections_Framework.md)  |  Getting to Know the Collection Hierarchy | [Storing Elements in a Collection](./Storing_Elements_in_a_Collection.md)
+
