@@ -1,4 +1,4 @@
-[The Collection FrameWork](./README.md) | Storing Data Using the Collections Framework | [Getting to Know the Collection Hierarchy](./Getting_to_Know_the_Collection_Hierarchy.md) 
+[The Collection FrameWork](./README.md) | Storing Data Using the Collections Framework | [>>](./Getting_to_Know_the_Collection_Hierarchy.md) 
 
 #### 
 ##### Introducing the Collections Framework
@@ -49,4 +49,4 @@
 
 
 -----------------
-[The Collection FrameWork](./README.md) | Storing Data Using the Collections Framework | [Getting to Know the Collection Hierarchy](./Getting_to_Know_the_Collection_Hierarchy.md)
+[The Collection FrameWork](./README.md) | Storing Data Using the Collections Framework | [>>](./Getting_to_Know_the_Collection_Hierarchy.md)

@@ -61,4 +61,4 @@ for (String element: collection) {
 * The **NavigableSet** does not change the behavior of a SortedSet. It adds several vey useful operations on SortedSet, among them the possibility to iterate over the elements in the descending order. You will see more details ont that later.
 
 
-[The Collection FrameWork](./README.md) | [<<](./Storing_Data_Using_the_Collections_Framework.md)  |  Getting to Know the Collection Hierarchy | [>>](./Storing_Elements_in_a_Collection.md)[The Collection FrameWork](./README.md) |[<<](./Storing_Data_Using_the_Collections_Framework.md)  |  Getting to Know the Collection Hierarchy | [>>](./Storing_Elements_in_a_Collection.md)
+[The Collection FrameWork](./README.md) | [<<](./Storing_Data_Using_the_Collections_Framework.md)  |  Getting to Know the Collection Hierarchy | [>>](./Storing_Elements_in_a_Collection.md)
